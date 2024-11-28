@@ -2,11 +2,11 @@ p{
     color:blue;
     font-size: 30px;
 }
-
+/*se utiliza punto cuando se crea una variable tipo class*/
 .parrafo{
     color:brown;
 }
-
+/*se utiliza #numeral cuando es un id*/
 #texto{
     color: yellow;
 }
