@@ -13,6 +13,7 @@
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
+    background-color: blueviolet;
 }
 .main-nav_item a:hover{
     color: blue;
