@@ -2,6 +2,7 @@ body{
     background-color: rgb(201, 239, 201);
 }
 .main-nav{
+    padding: 10px;
     margin-top: 10px;
     list-style: none;
     padding-left: 0;
@@ -19,4 +20,7 @@ body{
 }
 .main-nav_item a:hover{
     color: blue;
+}
+.main-nav_item a:active{
+    color: red;
 }
