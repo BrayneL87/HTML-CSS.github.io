@@ -7,16 +7,16 @@ body{
     padding-left: 0;
     background-color: #13a4a4;
 }
-.main-nav_item{
+.main-nav__item{
     display: inline-block;
 }
-.main-nav_item{
+.main-nav__item{
     color: white;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
     background-color: blueviolet;
 }
-.main-nav_item a:hover{
+.main-nav__item a:hover{
     color: blue;
 }
