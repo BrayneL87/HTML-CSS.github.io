@@ -10,7 +10,7 @@ body{
 .main-nav_item{
     display: inline-block;
 }
-.main-nav_item{
+.main-nav_item a{
     color: white;
     padding: 5px;
     border-radius: 2px;
