@@ -23,4 +23,5 @@
 }
 .main-nav_item a::after{
     content: "|";
+    margin: 20px;
 }
