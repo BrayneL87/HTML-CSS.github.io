@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h2>Soy un h2</h2>
+        <p>Soy etiqueta de parrafo</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un parrafo</p>
+        <h2>Soy un h2</h2>
+        <p>soy un parrafo</p>
+    </div> 
+
+    <div>
+        <h1>sibling</h1>
+        <p>En CSS, sibling se refiere a los selectores de hermanos, que son símbolos que ayudan a los navegadores a comprender la relación entre los elementos HTML.</p>
+        <p>h2 ~ p{<br>
+            color: blue;<br>
+        }</p>
+    </div>
+
+    <div>
+        <H1>Combinador Hijos y decendiente</H1>
+        <p>En CSS, el selector de descendientes para seleccionar todos los elementos p dentro de un elemento div es div p. 
+            El selector de hijo directo es div > p. Este selector solo coincide con los elementos que son hijos directos de los elementos coincidentes con el primer selector. </p>
+            <p>div > p{<br>
+                color: red;<br>
+                } <br>
+                </p>
+
+        <article>
+            <p>soy un texto</p>
+        </article>
+        <article>
+            <p>soy un texto</p>
+        </article>
+        <section>
+            <div>
+                <p>Soy un texto</p>
+            </div>
+        </section>
+        <p>Soy un texto</p>
+    </div>
+</body>
+</html>

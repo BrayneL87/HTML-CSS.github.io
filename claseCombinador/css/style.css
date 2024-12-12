@@ -1,0 +1,11 @@
+/* h2 +p{ /*la regla se aplica a las letras que este cerca de h2*/
+    /* color: red; }*/
+  
+/*Combinadores sibling*/
+/* h2 ~ p{
+    color: blue;
+} */
+div > p{
+    color: red;
+    }
+    
