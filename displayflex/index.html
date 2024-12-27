@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+       <main class="container">
+        <div class="box1 box">
+        <p>Box1</p>
+        </div>
+        <div class="box2 box">
+            <p>Box2</p>
+        </div>
+        <div class="box3 box">
+            <p>Box3</p>
+        </div>
+        <div class="box4 box">
+            <p>Box4</p>
+        </div>
+        <div class="box5 box">
+            <p>Box5</p>
+        </div>
+        <div class="box6 box">
+            <p>Box6</p>
+        </div>        
+    </main>
+    <br><br>
+    <h1>Display Flex</h1>
+    <div>
+        <p>.container{ <br>
+            border: 0.3rem solid black; <br>
+            display: flex; /*este display flex coloca todos los cuadros de forma horizontal*/ <br>
+        }</p>
+    </div>
+    <div>
+        <br>
+        <p> flex-wrap: wrap; /*se utiliza para cuando se reduce la pantalla  se pueda bajar los cuadros uno debajo del otro de forma automatica */ <br>
+            justify-content: center; /*se utiliza para centrar, y si se mescla con fñex-wrao: wrap lo centra todo y cuando se redusca la pantalla se sigue centrando los cuadros*/</p>
+    </div>
+    <p>
+        <br>
+        justify-content: space-evenly; se utiliza para dar los espacios entre los cuadros del mismo tamaño
+    </p>
+    <p> <br>align-items: center; se utliza para centrar todos los cuadros en el centro del cuadrado 
+    </p>
+<br>
+<p>align-items: stretch; se utiliza para que todos lo cuadros lleguen hasta el fondo y se debe eliminar el /* height: 10rem; */ que esta dentro de box</p>
+<p>.box {<br>
+    width: 10rem;<br>
+    /* height: 10rem; */ <br>
+}</p> <br>
+<p>align-items: baseline;  se utiliza para tome el mismo tamaño del contenetor igual eliminando height de .box</p>
+<br>
+<p> flex-grow: 2; se utiliza para que la caja 1 y 2 cresca el tamaño y ocupe todos los espacio que qyuedan libre en la pantalla hacia los lados</p>
+</body>
+</html>
