@@ -1,22 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Invitación de Boda</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="invitacion">
-    <h1>¡Nos Casamos!</h1>
-    <p class="nombres">Ana & Juan</p>
-    <p class="fecha">Sábado, 15 de Noviembre de 2025</p>
-    <p class="lugar">Hacienda Las Flores, Guadalajara, México</p>
-    
-    <button id="btn-rsvp">Confirmar Asistencia</button>
-    <p id="confirmacion" class="oculto">¡Gracias por confirmar tu asistencia!</p>
-  </div>
+    <div class="invitation-container">
+        <header class="hero-section">
+            <h1>¡Nos Casamos!</h1>
+            <p class="names">Laura & David</p>
+            <p class="date">15 de Diciembre de 2025</p>
+            <p class="location">Iglesia Nuestra Señora del Carmen, Salón de Eventos El Dorado</p>
+        </header>
 
-  <script src="script.js"></script>
+        <section class="details-section">
+            <h2>Detalles del Evento</h2>
+            <div class="event-info">
+                <h3>Ceremonia Religiosa</h3>
+                <p><strong>Hora:</strong> 16:00 PM</p>
+                <p><strong>Lugar:</strong> Iglesia Nuestra Señora del Carmen</p>
+                <p><strong>Dirección:</strong> Calle 123 #45-67, Barranquilla</p>
+                <a href="https://maps.app.goo.gl/TUHwU4j7hJ2kL3pA9" target="_blank" class="btn">Ver en Mapa</a>
+            </div>
+
+            <div class="event-info">
+                <h3>Recepción</h3>
+                <p><strong>Hora:</strong> 18:00 PM</p>
+                <p><strong>Lugar:</strong> Salón de Eventos El Dorado</p>
+                <p><strong>Dirección:</strong> Carrera 98 #76-54, Barranquilla</p>
+                <a href="https://maps.app.goo.gl/TUHwU4j7hJ2kL3pA9" target="_blank" class="btn">Ver en Mapa</a>
+            </div>
+        </section>
+
+        <section class="rsvp-section">
+            <h2>Confirma tu Asistencia</h2>
+            <p>Por favor, confirma tu asistencia antes del 1 de Diciembre de 2025.</p>
+            <button id="rsvpBtn" class="btn">Confirmar Asistencia</button>
+            <div id="rsvpForm" class="hidden">
+                <form>
+                    <label for="name">Nombre Completo:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="guests">Número de Acompañantes:</label>
+                    <input type="number" id="guests" name="guests" min="0" value="0">
+
+                    <label for="message">Mensaje (opcional):</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <button type="submit" class="btn">Enviar Confirmación</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Nuestra Historia</h2>
+            <div class="image-grid">
+                <img src="images/couple1.jpg" alt="Pareja 1">
+                <img src="images/couple2.jpg" alt="Pareja 2">
+                <img src="images/couple3.jpg" alt="Pareja 3">
+            </div>
+        </section>
+
+        <section class="gift-section">
+            <h2>Sugerencia de Regalo</h2>
+            <p>Lo más importante es tu presencia, pero si deseas hacernos un regalo, estas son algunas opciones:</p>
+            <p><strong>Número de cuenta:</strong> XXXX-XXXX-XXXX-XXXX (Banco X)</p>
+            <p><strong>Lista de regalos:</strong> Tienda X (Link a la lista de regalos)</p>
+        </section>
+
+        <footer class="footer-section">
+            <p>&copy; 2025 Laura & David. ¡Te esperamos!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
